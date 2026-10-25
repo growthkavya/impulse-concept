@@ -69,13 +69,26 @@
 </header>
 
 <section id="top" class="hero">
-  <div class="hero-word" aria-hidden="true">impulse</div>
+  <svg class="word" viewBox="0 0 1000 320" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+    <defs>
+      <clipPath id="wordClip"><text x="500" y="262" text-anchor="middle" textLength="940" lengthAdjust="spacingAndGlyphs" font-family="Shrikhand, Poppins, cursive" font-size="300">impulse</text></clipPath>
+      <linearGradient id="wordCoffee" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b8743f"/><stop offset=".35" stop-color="#8a4a22"/><stop offset="1" stop-color="#3e1b0b"/></linearGradient>
+    </defs>
+    <g clip-path="url(#wordClip)">
+      <g class="pour">
+        <path class="wave w1" d="M-1000 20 Q-900 0 -800 20 T-600 20 T-400 20 T-200 20 T0 20 T200 20 T400 20 T600 20 T800 20 T1000 20 T1200 20 T1400 20 T1600 20 T1800 20 T2000 20 V700 H-1000 Z" fill="url(#wordCoffee)"/>
+        <path class="wave w2" d="M-1000 26 Q-880 6 -760 26 T-520 26 T-280 26 T-40 26 T200 26 T440 26 T680 26 T920 26 T1160 26 T1400 26 T1640 26 T1880 26 T2120 26 V700 H-1000 Z" fill="#fde0c1" opacity=".18"/>
+      </g>
+    </g>
+    <text class="outline" x="500" y="262" text-anchor="middle" textLength="940" lengthAdjust="spacingAndGlyphs" font-family="Shrikhand, Poppins, cursive" font-size="300">impulse</text>
+  </svg>
   <div class="cup-top" id="cupTop">
     <svg class="ring-text" viewBox="0 0 400 400" aria-hidden="true">
       <defs><path id="ringPath" d="M200,200 m-172,0 a172,172 0 1,1 344,0 a172,172 0 1,1 -344,0"/></defs>
       <text><textPath href="#ringPath">experience the hustle &nbsp;·&nbsp; bold flavours &nbsp;·&nbsp; better function &nbsp;·&nbsp; proudly made in india &nbsp;·&nbsp; </textPath></text>
     </svg>
     <canvas id="crema" aria-hidden="true"></canvas>
+    <img class="cup-logo" src="https://www.impulsecoffees.com/cdn/shop/files/final_logo.png?width=400" alt="Impulse Coffees">
     <div class="saucer" aria-hidden="true"></div>
     <div class="drop" aria-hidden="true"></div>
   </div>
