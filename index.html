@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
+<meta name="referrer" content="no-referrer">
+<title>Impulse Coffees, reimagined</title>
+<meta name="description" content="A private concept preview of what the Impulse Coffees website could feel like. Not for production.">
+<link rel="icon" href="https://www.impulsecoffees.com/cdn/shop/files/final_logo.png?width=64">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shrikhand&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+<noscript><div class="noscript">This preview needs JavaScript turned on.</div></noscript>
+
+<!-- ingredient illustrations, reused by the wheel, the ritual and the journey -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-mocha" viewBox="0 0 64 64"><rect x="10" y="14" width="44" height="36" rx="6" fill="#3b1a0c"/><rect x="14" y="18" width="36" height="28" rx="4" fill="#4e2411"/><path d="M32 18v28M14 32h36" stroke="#2a1108" stroke-width="3"/><circle cx="50" cy="18" r="7" fill="var(--sec-bg,#160a07)"/><rect x="18" y="22" width="9" height="7" rx="2" fill="#6a3418" opacity=".7"/></symbol>
+    <symbol id="i-hazelnut" viewBox="0 0 64 64"><ellipse cx="32" cy="36" rx="19" ry="21" fill="#a2652f"/><path d="M13 30q19-12 38 0q-3-16-19-18q-16 2-19 18z" fill="#d7b48c"/><path d="M32 57l-3-6h6z" fill="#6a3b14"/><ellipse cx="25" cy="38" rx="4" ry="7" fill="#c98a4e" opacity=".5"/></symbol>
+    <symbol id="i-caramel" viewBox="0 0 64 64"><path d="M4 32l10-9v18z M60 32l-10-9v18z" fill="#f6c661"/><rect x="13" y="20" width="38" height="24" rx="7" fill="#e39a2e"/><rect x="18" y="24" width="28" height="7" rx="3.5" fill="#f8d78a" opacity=".8"/><path d="M14 32h-3M53 32h-3" stroke="#c77d17" stroke-width="2"/></symbol>
+    <symbol id="i-pistachio" viewBox="0 0 64 64"><path d="M14 36c-4-14 6-26 18-26s22 12 18 26c-2 8-8 12-18 12S16 44 14 36z" fill="#e6d4b1"/><path d="M22 36c-2-9 4-18 10-18s12 9 10 18c-1 5-5 8-10 8s-9-3-10-8z" fill="#8fbf5f"/><path d="M27 31q5-3 10 0" stroke="#5e8f3a" stroke-width="2.5" stroke-linecap="round" fill="none"/><path d="M12 34c1 8 6 14 20 14" stroke="#cdb892" stroke-width="2" fill="none"/></symbol>
+    <symbol id="i-vanilla" viewBox="0 0 64 64"><path d="M14 54C26 40 30 24 48 10" stroke="#3a1c0e" stroke-width="7" stroke-linecap="round" fill="none"/><path d="M14 54C26 40 30 24 48 10" stroke="#5a2f17" stroke-width="3" stroke-linecap="round" fill="none"/><g transform="translate(44 40)"><circle r="4" cx="0" cy="-8" fill="#fff4dc"/><circle r="4" cx="7.6" cy="-2.5" fill="#fff4dc"/><circle r="4" cx="4.7" cy="6.5" fill="#fff4dc"/><circle r="4" cx="-4.7" cy="6.5" fill="#fff4dc"/><circle r="4" cx="-7.6" cy="-2.5" fill="#fff4dc"/><circle r="3" fill="#fabb33"/></g></symbol>
+    <symbol id="i-espresso" viewBox="0 0 64 64"><path d="M40 8a24 24 0 1 0 16 40a19 19 0 1 1-16-40z" fill="#fde0c1"/><g transform="translate(46 44)"><circle r="2.6" cx="0" cy="-5" fill="#fff"/><circle r="2.6" cx="4.8" cy="-1.5" fill="#fff"/><circle r="2.6" cx="3" cy="4" fill="#fff"/><circle r="2.6" cx="-3" cy="4" fill="#fff"/><circle r="2.6" cx="-4.8" cy="-1.5" fill="#fff"/><circle r="1.6" fill="#fabb33"/></g><circle cx="52" cy="14" r="1.6" fill="#fff"/><circle cx="58" cy="26" r="1.1" fill="#fff"/></symbol>
+    <symbol id="i-mango" viewBox="0 0 64 64"><path d="M22 14c12-6 28 4 28 20s-14 24-28 18S6 22 22 14z" fill="#7cb342"/><path d="M26 20c8-3 18 4 18 14" stroke="#b8e07a" stroke-width="3" stroke-linecap="round" fill="none" opacity=".8"/><path d="M20 14q-6-8 2-12q2 6-2 12z" fill="#3f7d20"/><path d="M20 14q8-6 14-2q-7 2-14 2z" fill="#58a02c"/></symbol>
+    <symbol id="i-ube" viewBox="0 0 64 64"><ellipse cx="32" cy="34" rx="24" ry="20" fill="#5b2a6e"/><ellipse cx="32" cy="34" rx="19" ry="15" fill="#8d4fb0"/><ellipse cx="32" cy="34" rx="12" ry="9" fill="#c79ad8"/><ellipse cx="32" cy="34" rx="5" ry="3.5" fill="#f1e2f6"/><path d="M8 34q6-6 6-14" stroke="#3d1a4a" stroke-width="3" stroke-linecap="round" fill="none"/></symbol>
+    <symbol id="i-bean" viewBox="0 0 40 56"><ellipse cx="20" cy="28" rx="18" ry="26" fill="#4a1f0e"/><path d="M20 4c-8 10 8 22 0 48" stroke="#fde0c1" stroke-width="3.5" fill="none" stroke-linecap="round" opacity=".7"/></symbol>
+  </defs>
+</svg>
+
+<!-- private gate -->
+<div id="gate" role="dialog" aria-labelledby="gateTitle">
+  <div class="gate-card">
+    <img class="gate-badge" src="https://www.impulsecoffees.com/cdn/shop/files/final_logo.png?width=240" alt="">
+    <h1 id="gateTitle">A private preview, made for the Impulse team.</h1>
+    <p>The code is in the email this link came with.</p>
+    <form id="gateForm" autocomplete="off">
+      <label class="sr" for="code">Preview code</label>
+      <input id="code" type="text" inputmode="text" spellcheck="false" placeholder="code" required>
+      <button type="submit">Pour</button>
+    </form>
+    <p class="gate-err" id="gateErr" hidden>That is not it. Try the word on the jar lid.</p>
+  </div>
+</div>
+
+<!-- intro layers -->
+<canvas id="rain" aria-hidden="true"></canvas>
+<div id="badge" aria-hidden="true"><img src="https://www.impulsecoffees.com/cdn/shop/files/final_logo.png?width=600" alt=""></div>
+<div id="curtain" aria-hidden="true"></div>
+<button id="skip" type="button">Skip</button>
+
+<div id="page">
+
+<header id="nav">
+  <a class="brand" href="#top" aria-label="Impulse Coffees">
+    <img src="https://www.impulsecoffees.com/cdn/shop/files/final_logo.png?width=120" alt="">
+    <svg class="progress" viewBox="0 0 24 28" aria-hidden="true"><path d="M3 4h15l-1.6 19.5a2.5 2.5 0 0 1-2.5 2.5H7.1a2.5 2.5 0 0 1-2.5-2.5z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M18 9h2.5a3 3 0 0 1 0 6H17.5" fill="none" stroke="currentColor" stroke-width="1.6"/><clipPath id="cupclip"><path d="M3 4h15l-1.6 19.5a2.5 2.5 0 0 1-2.5 2.5H7.1a2.5 2.5 0 0 1-2.5-2.5z"/></clipPath><rect id="fill" x="0" y="26" width="24" height="24" fill="currentColor" clip-path="url(#cupclip)"/></svg>
+  </a>
+  <nav>
+    <a href="#wheel">Flavours</a>
+    <a href="#ritual">Ritual</a>
+    <a href="#story">Nani</a>
+    <a href="#journey">The journey</a>
+  </nav>
+  <a class="bag" href="#wheel"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 8h12l1 13H5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 10V7a3 3 0 0 1 6 0v3" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><span id="bagCount">0</span></a>
+</header>
+
+<section id="top" class="hero">
+  <div class="hero-word" aria-hidden="true">impulse</div>
+  <div class="cup-top" id="cupTop">
+    <svg class="ring-text" viewBox="0 0 400 400" aria-hidden="true">
+      <defs><path id="ringPath" d="M200,200 m-172,0 a172,172 0 1,1 344,0 a172,172 0 1,1 -344,0"/></defs>
+      <text><textPath href="#ringPath">experience the hustle &nbsp;·&nbsp; bold flavours &nbsp;·&nbsp; better function &nbsp;·&nbsp; proudly made in india &nbsp;·&nbsp; </textPath></text>
+    </svg>
+    <canvas id="crema" aria-hidden="true"></canvas>
+    <div class="saucer" aria-hidden="true"></div>
+    <div class="drop" aria-hidden="true"></div>
+  </div>
+  <p class="hero-line">Gourmet instant coffee from Chikmagalur. No chicory, no added sugar, ready before the kettle clicks.</p>
+  <a class="btn" href="#wheel">Spin the flavour wheel</a>
+</section>
+
+<section id="wheel" class="wheel-sec">
+  <div class="wheel-head">
+    <h2>Eight moods. One jar each.</h2>
+    <p>Turn the wheel. Each flavour brings its own colour and its own little ingredient to the table.</p>
+  </div>
+  <div class="wheel-wrap">
+    <div class="garnish" id="garnish"></div>
+    <div class="dial" id="dial"></div>
+    <div class="orbit" id="orbit"></div>
+    <div class="hub" id="hub"><img id="hubImg" alt=""></div>
+    <button class="turn prev" id="prev" type="button" aria-label="Previous flavour"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    <button class="turn next" id="next" type="button" aria-label="Next flavour"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+  </div>
+  <div class="wheel-info" id="info" aria-live="polite">
+    <p class="hindi" id="iHindi"></p>
+    <h3 id="iName"></h3>
+    <p class="note" id="iNote"></p>
+    <p class="price"><b id="iPrice"></b> <s id="iOld"></s></p>
+    <div class="info-actions">
+      <button class="btn" id="makeBtn" type="button">Make this cup</button>
+      <button class="btn quiet" id="addBtn" type="button">Add to bag</button>
+    </div>
+  </div>
+</section>
+
+<section id="ritual" class="ritual" data-step="0">
+  <div class="ritual-head">
+    <h2>The 20-second ritual.</h2>
+    <p id="ritualSub">Instant does not mean careless. Watch the cup build itself, one step at a time.</p>
+  </div>
+  <div class="ritual-body">
+    <div class="ritual-stage">
+      <svg viewBox="0 0 360 420" class="glass-svg" aria-hidden="true">
+        <defs>
+          <clipPath id="gclip"><path d="M80 120h200l-18 250q-1 14-15 14H113q-14 0-15-14z"/></clipPath>
+          <linearGradient id="liq" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="var(--liq-top)"/><stop offset="1" stop-color="var(--liq-bot)"/></linearGradient>
+        </defs>
+        <!-- pour stream -->
+        <rect class="stream" x="172" y="0" width="14" height="0" rx="7" fill="#dfe9ff" opacity=".85"/>
+        <!-- spoon -->
+        <g class="spoon"><path d="M-10 60q90-10 150 40" stroke="#d9c7b0" stroke-width="7" stroke-linecap="round" fill="none"/><ellipse cx="146" cy="104" rx="26" ry="16" fill="#e8d8c2"/><ellipse cx="146" cy="102" rx="18" ry="9" fill="#7a4a24"/></g>
+        <!-- crystals falling -->
+        <g class="crystals">
+          <circle cx="166" cy="110" r="5" fill="#8b4513"/><circle cx="180" cy="100" r="4" fill="#b65c35"/><circle cx="192" cy="112" r="5.5" fill="#6b2d0e"/><circle cx="174" cy="124" r="3.5" fill="#8b4513"/><circle cx="188" cy="128" r="4.5" fill="#a0522d"/><circle cx="160" cy="130" r="3" fill="#6b2d0e"/>
+        </g>
+        <!-- glass -->
+        <path class="glass" d="M80 120h200l-18 250q-1 14-15 14H113q-14 0-15-14z" fill="rgba(255,255,255,.05)" stroke="#fde0c1" stroke-width="4"/>
+        <path class="handle" d="M280 170q60 0 58 55q-2 56-70 56" fill="none" stroke="#fde0c1" stroke-width="12" stroke-linecap="round"/>
+        <g clip-path="url(#gclip)">
+          <rect class="liquid" x="60" y="400" width="240" height="300" fill="url(#liq)"/>
+          <g class="pile"><ellipse cx="180" cy="384" rx="70" ry="10" fill="#7a4a24"/></g>
+          <ellipse class="foam" cx="180" cy="420" rx="110" ry="22" fill="#fde9d4"/>
+          <g class="bubbles"><circle cx="150" cy="420" r="3" fill="#fff" opacity=".7"/><circle cx="200" cy="420" r="2" fill="#fff" opacity=".7"/><circle cx="175" cy="420" r="2.5" fill="#fff" opacity=".7"/></g>
+        </g>
+        <!-- frother -->
+        <g class="frother"><rect x="176" y="-110" width="8" height="190" rx="4" fill="#2a2a2a"/><rect x="170" y="-120" width="20" height="50" rx="10" fill="#444"/><ellipse class="whisk" cx="180" cy="90" rx="14" ry="5" fill="none" stroke="#bbb" stroke-width="2.5"/></g>
+        <!-- garnish -->
+        <g class="garnish-drop"><use id="garnishUse" href="#i-pistachio" x="150" y="40" width="60" height="60"/></g>
+        <!-- steam -->
+        <g class="steam-g"><path d="M150 100q-14-22 0-44q14-22 0-44" fill="none" stroke="#fde0c1" stroke-width="5" stroke-linecap="round"/><path d="M180 100q-14-22 0-44q14-22 0-44" fill="none" stroke="#fde0c1" stroke-width="5" stroke-linecap="round"/><path d="M210 100q-14-22 0-44q14-22 0-44" fill="none" stroke="#fde0c1" stroke-width="5" stroke-linecap="round"/></g>
+      </svg>
+    </div>
+    <div class="ritual-side">
+      <ol class="steps" id="steps">
+        <li><b>One spoon.</b><span>Freeze-dried crystals. Arabica only, from Chikmagalur.</span></li>
+        <li><b>Pour.</b><span>Hot water, cold milk, oat. Whatever the day asks for.</span></li>
+        <li><b>Whip.</b><span>Thirty seconds with The Whip. A cloud forms on top.</span></li>
+        <li><b>Finish.</b><span>The flavour's own garnish, dropped in last.</span></li>
+        <li><b>Sip.</b><span>Bold flavour, better function, no crash.</span></li>
+      </ol>
+      <div class="ritual-controls">
+        <button class="btn" id="stepBtn" type="button">Start</button>
+        <button class="btn quiet" id="replayBtn" type="button" hidden>Again</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="story" class="story">
+  <div class="video-bg" id="videoBg" aria-hidden="true"><div class="veil"></div></div>
+  <div class="story-inner">
+    <div class="frames">
+      <figure class="polaroid p1" id="naniFrame">
+        <div class="photo">
+          <img id="naniImg" src="assets/nani.jpg" alt="Sarah Sarosh kissing her grandmother on the cheek">
+          <svg class="tumbler" viewBox="0 0 120 140" aria-hidden="true"><path d="M30 20h60l-6 70H36z" fill="#d9d9d9"/><path d="M30 20h60v8H30z" fill="#f2f2f2"/><path d="M20 98h80a6 6 0 0 1 6 6v6a20 20 0 0 1-20 20H34a20 20 0 0 1-20-20v-6a6 6 0 0 1 6-6z" fill="#cfcfcf"/><path d="M14 104h92v6H14z" fill="#e8e8e8"/><path d="M40 32h40l-4 50H44z" fill="#6b3a1c"/><path d="M50 10q-6-10 0-20M62 12q-6-10 0-20" stroke="#fde0c1" stroke-width="3" fill="none" stroke-linecap="round" opacity=".6"/></svg>
+        </div>
+        <figcaption>Sarah and Nani. Mangalore first, then Mumbai. Coffee every morning.</figcaption>
+      </figure>
+      <figure class="polaroid p2">
+        <div class="photo"><img src="https://www.impulsecoffees.com/cdn/shop/files/IMG_0441_1_1_1.jpg?width=800" alt="Sarah Sarosh with a cup of coffee"></div>
+        <figcaption>Sarah. Occupational therapist, creator, founder.</figcaption>
+      </figure>
+    </div>
+    <div class="letter">
+      <p class="hey">Hey Impulse Hustlers!</p>
+      <p>Coming from a South Indian household, I have grown up drinking coffee made by my grandmother, Nani. She is Mangalorean, and from a young age she would start our mornings with coffee from there.</p>
+      <p>As we ate breakfast she would tell me stories of how she left Mangalore and moved to Mumbai. Coffee became the comfort, and the conversation.</p>
+      <p>My perfect cup is rich, delicious and instant. With Impulse, I have recreated the essence of the coffee I grew up drinking.</p>
+      <p class="sig">Sarah Sarosh</p>
+      <p class="letter-note">Lines drawn from Sarah's founder letter and interviews. The real page gets her words, her voice note, and the video that plays behind this one.</p>
+    </div>
+  </div>
+</section>
+
+<section id="journey" class="journey">
+  <div class="journey-head">
+    <h2>How a first-timer buys. Six screens.</h2>
+    <p>From a reel to a reorder, without a single dead end. Scroll sideways.</p>
+  </div>
+  <div class="track" id="track">
+    <article class="phone" data-k="reel">
+      <div class="screen">
+        <div class="reel"><div class="reel-art"></div><div class="reel-ui"><span class="handle">@sarahsarosh</span><span class="cap">the coffee my nani made, in a jar</span></div><button class="sticker" type="button">Shop the jar</button></div>
+      </div>
+      <h3>The reel</h3><p>One tap on the sticker opens the jar she is holding, not the homepage.</p>
+    </article>
+    <article class="phone" data-k="quiz">
+      <div class="screen">
+        <div class="quiz"><p class="q">Mornings are for</p><div class="chips"><span class="chip on">something sweet</span><span class="chip">something bold</span></div><p class="q">Milk?</p><div class="chips"><span class="chip">always</span><span class="chip on">black, thanks</span></div><div class="result"><svg width="22" height="22"><use href="#i-caramel"/></svg><span>Caramel Ka Kamal</span></div></div>
+      </div>
+      <h3>Three questions</h3><p>A taste quiz picks the first jar. No scrolling through 69 products.</p>
+    </article>
+    <article class="phone" data-k="wheel">
+      <div class="screen">
+        <div class="mini-wheel"><div class="mini-orbit"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="mini-hub"><svg width="30" height="30"><use href="#i-pistachio"/></svg></div></div>
+        <p class="mini-label">Nawabi Pistachio · ₹329</p>
+      </div>
+      <h3>The wheel</h3><p>Browsing feels like turning a shelf, and every flavour gets its own colour.</p>
+    </article>
+    <article class="phone" data-k="ritual">
+      <div class="screen">
+        <div class="mini-glass"><div class="mini-liq"></div><div class="mini-foam"></div></div>
+        <p class="mini-label">Your 20-second ritual</p>
+      </div>
+      <h3>See it made</h3><p>Before buying, you watch your exact cup come together.</p>
+    </article>
+    <article class="phone" data-k="pay">
+      <div class="screen">
+        <div class="pay"><div class="line"><span>Nawabi Pistachio 50g</span><b>₹329</b></div><div class="line"><span>Caramel Ka Kamal 50g</span><b>₹399</b></div><div class="line free"><span>Shipping</span><b>Free, you bought two</b></div><div class="upi"><span class="upi-logo">UPI</span><span>Pay ₹728</span></div><p class="tap">Two taps. Address remembered.</p></div>
+      </div>
+      <h3>Checkout</h3><p>Their real offer, "buy two, free shipping", shown as it happens, not as a banner.</p>
+    </article>
+    <article class="phone" data-k="again">
+      <div class="screen">
+        <div class="again"><div class="box"><svg width="34" height="34"><use href="#i-bean"/></svg></div><p class="msg">Day 24. Your Pistachio jar is probably at the last spoon.</p><button class="reorder" type="button">Refill, same two jars</button></div>
+      </div>
+      <h3>The refill</h3><p>A nudge timed to the jar, not to a calendar. The second order is the business.</p>
+    </article>
+  </div>
+</section>
+
+<section class="close">
+  <div class="ring-stain" aria-hidden="true"></div>
+  <h2>This is a sketch of the feeling, not the finished site.</h2>
+  <p>Everything here was built from what is public on impulsecoffees.com, in the evenings, after work. The real thing would run on your Shopify catalogue, your photography, and your voice. If it made you smile once, reply to the email.</p>
+  <p class="byline">Concept and build by Kavya Bahety, Kolkata</p>
+</section>
+
+<footer class="legal">
+  <p>Private concept preview. Not affiliated with or endorsed by Impulse Coffees. Product names, imagery, video and logo belong to Impulse Coffees and Sarah Sarosh and appear here only to illustrate the proposal. Not for production or redistribution.</p>
+</footer>
+
+</div>
+
+<div id="cursor" aria-hidden="true"><svg viewBox="0 0 40 56"><use href="#i-bean"/></svg></div>
+<div id="wm" aria-hidden="true">Private preview</div>
+<script src="app.js"></script>
+</body>
+</html>
